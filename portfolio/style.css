@@ -1,0 +1,99 @@
+
+*{
+    box-sizing: border-box;
+    
+ }
+
+.container{
+    width: 70%;
+        }
+
+header div{
+    background-image: url(./header\ BG.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    font-style: italic;
+    color: white;
+    
+        }
+
+#personal{  
+    width: 150px;
+    height: 140px;
+    margin-left: 45%;
+    margin-top: 100px; 
+        } 
+
+main{
+width: 80%;
+margin: auto;
+background-color: lightskyblue;
+font-style: italic;
+    }
+
+.obj{
+width: 70%;
+margin: auto;
+padding: 50px;
+text-align: center;
+
+    }
+
+.edu{
+    margin-top: 35px;
+    margin-bottom: 35px;
+    
+    }
+
+.card1{
+    padding-right:100px;
+}
+
+.card2{padding-right:100px;}
+
+
+
+
+
+footer {
+        padding: 5px;
+        background-color: rgb(84, 95, 139);
+        color: white;    
+    }
+
+#footer_box{
+           display: flex;
+           flex-direction: row;
+           
+           padding-bottom:75px;
+           background-color: rgb(84, 95, 139);
+           margin-left: 15%;
+    }
+
+#footer-text-left{
+           font-size:18px;
+           color: white;
+           font-family:Euphemia;
+           padding-right: 80px;
+           
+    }
+
+#footer-text-center{
+           font-size:18px;
+           color:white;
+           font-family:Euphemia;
+           padding-right: 80px;    
+    }
+    
+#footer-text-right{
+    
+          font-size:18px;
+          font-family:Euphemia;
+          color:white;
+          padding-right: 80px;
+    }
+   
+
+
+
