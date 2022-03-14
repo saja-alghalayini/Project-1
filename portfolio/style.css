@@ -1,34 +1,52 @@
 
 *{
     box-sizing: border-box;
-    
  }
 
 .container{
     width: 70%;
+    background-color: #577BC1;
+    text-align: center;
+    
         }
 
 header div{
     background-image: url(./header\ BG.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 400px;
+    height:400px;
     font-style: italic;
     color: white;
-    
+    text-align: center;
+    display: block;
+    position: relative;
         }
 
 #personal{  
-    width: 150px;
+    width: 130px;
     height: 140px;
-    margin-left: 45%;
-    margin-top: 100px; 
+    position: relative;
+    
         } 
+@media ( max-width: 1024px )
+        {#personal {
+            height:130px ;
+            width: 140;
+         }
+        
+           
+        } 
+
+        
+.titlesborder{
+    margin-top:3%;
+    }
+
 
 main{
 width: 80%;
 margin: auto;
-background-color: lightskyblue;
+background-color: #577BC1;
 font-style: italic;
     }
 
@@ -37,61 +55,73 @@ width: 70%;
 margin: auto;
 padding: 50px;
 text-align: center;
-
+font-size: 1vw;
     }
 
-.edu{
-    margin-top: 35px;
-    margin-bottom: 35px;
+@media ( max-width: 1024px )
+    {.obj { font-size: 2vw;}
     
-    }
+       
+    }  
 
 .card1{
     padding-right:100px;
-}
+    margin-bottom:15px;
+    border: 10px;
+    }
 
-.card2{padding-right:100px;}
-
-
-
-
+.imgforcard{
+    height: 250px;
+    width:290px;
+      }
+@media (max-width:500px)
+ {.imgforcard {
+     height: 150px;
+     width:190px ;
+ } }
 
 footer {
         padding: 5px;
-        background-color: rgb(84, 95, 139);
-        color: white;    
+        background-color: #344CB7;
+        background-size: 100%; 
+           
     }
 
 #footer_box{
-           display: flex;
-           flex-direction: row;
-           
-           padding-bottom:75px;
-           background-color: rgb(84, 95, 139);
-           margin-left: 15%;
+        display: flex;
+        flex-direction: row;
+        padding-bottom:75px;
+        background-color: #344CB7;
+        margin-left: 15%;
     }
 
+@media ( max-width: 700px )
+ { #footer_box {
+     flex-direction: column; }
+    
+}
+
 #footer-text-left{
-           font-size:18px;
-           color: white;
-           font-family:Euphemia;
-           padding-right: 80px;
+        font-size:18px;
+        color: rgb(17, 5, 61);
+        font-family:Euphemia;
+        padding-right: 80px;
            
     }
 
 #footer-text-center{
-           font-size:18px;
-           color:white;
-           font-family:Euphemia;
-           padding-right: 80px;    
+        font-size:18px;
+        color:rgb(17, 5, 61);
+        font-family:Euphemia;
+        padding-right: 80px;    
     }
     
 #footer-text-right{
     
-          font-size:18px;
-          font-family:Euphemia;
-          color:white;
-          padding-right: 80px;
+        font-size:18px;
+        font-family:Euphemia;
+        color:rgb(17, 5, 61);
+        padding-right: 80px;
     }
    
 
