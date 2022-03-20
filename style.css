@@ -3,18 +3,34 @@
     box-sizing: border-box;
  }
 
-.container{
-    width: 70%;
-    background-color: #577BC1;
-    text-align: center;
+
+ 
+
     
-        }
+
+
+
+.nav-bar{
+    background-color: #082e47ec;
+}
+
+
+
+
+ul a{
+    color: #8bb9bb;
+}
+
+ul a:hover{
+    color: #F9F9F9;
+}
+/* ******************************************************* that's the header ********************************************************* */
 
 header div{
     background-image: url(./portfolio/header\ BG.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    height:400px;
+    height:470px;
     font-style: italic;
     color: white;
     text-align: center;
@@ -23,40 +39,73 @@ header div{
         }
 
 #personal{  
-    width: 130px;
-    height: 140px;
+    width: 160px;
+    height: 180px;
     position: relative;
+    margin-top: 6%;
     
         } 
+
+
 @media ( max-width: 1024px )
         {#personal {
             height:130px ;
-            width: 140;
+            width: 140px;
          }
         
            
         } 
 
         
-.titlesborder{
-    margin-top:3%;
-    }
 
+   
+
+.container{
+        margin: 40px;
+    }                  
+    
+
+
+.label{
+    color: #082e47ec ;  
+    text-align: center;
+    margin-top: -35px;
+}
+
+
+
+
+
+    /* *************************************************** that's the main ************************************************** */
 
 main{
 width: 80%;
 margin: auto;
-background-color: #577BC1;
 font-style: italic;
     }
+
 
 .obj{
 width: 70%;
 margin: auto;
 padding: 50px;
 text-align: center;
-font-size: 1vw;
+font-size: 20px;
+
     }
+
+#prjct{
+    color: #082e47ec ;  
+    text-align: center;
+    margin-top: -20px;
+}
+
+
+#exp{
+    color: #082e47ec ;  
+    text-align: center;
+    margin-top: -20px;
+}
 
 @media ( max-width: 1024px )
     {.obj { font-size: 2vw;}
@@ -64,26 +113,16 @@ font-size: 1vw;
        
     }  
 
-.card1{
-    padding-right:100px;
-    margin-bottom:15px;
-    border: 10px;
-    }
-
-.imgforcard{
-    height: 250px;
-    width:290px;
-      }
 @media (max-width:500px)
  {.imgforcard {
      height: 150px;
      width:190px ;
  } }
 
+
+            /* ********************************************************* That's the footer ****************************************************** */
 footer {
-        padding: 5px;
-        background-color: #344CB7;
-        background-size: 100%; 
+        background-color: #082e47ec;
            
     }
 
@@ -91,8 +130,9 @@ footer {
         display: flex;
         flex-direction: row;
         padding-bottom:75px;
-        background-color: #344CB7;
+        
         margin-left: 15%;
+        margin-top: 4%;
     }
 
 @media ( max-width: 700px )
@@ -103,7 +143,7 @@ footer {
 
 #footer-text-left{
         font-size:18px;
-        color: rgb(17, 5, 61);
+        color: #BDC7C9;
         font-family:Euphemia;
         padding-right: 80px;
            
@@ -111,7 +151,7 @@ footer {
 
 #footer-text-center{
         font-size:18px;
-        color:rgb(17, 5, 61);
+        color:#BDC7C9;
         font-family:Euphemia;
         padding-right: 80px;    
     }
@@ -120,7 +160,7 @@ footer {
     
         font-size:18px;
         font-family:Euphemia;
-        color:rgb(17, 5, 61);
+        color:#BDC7C9;
         padding-right: 80px;
     }
    
