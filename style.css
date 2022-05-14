@@ -3,30 +3,25 @@
     box-sizing: border-box;
  }
 
-
- 
-
-    
-
-
-
-.nav-bar{
+.nav-bar
+{
     background-color: #082e47ec;
 }
 
 
-
-
-ul a{
+ul a
+{
     color: #8bb9bb;
 }
 
 ul a:hover{
     color: #F9F9F9;
 }
+
 /* ******************************************************* that's the header ********************************************************* */
 
-header div{
+header div
+{
     background-image: url(./portfolio/header\ BG.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -36,37 +31,39 @@ header div{
     text-align: center;
     display: block;
     position: relative;
-        }
+}
 
-#personal{  
+#personal
+{  
     width: 160px;
     height: 180px;
     position: relative;
     margin-top: 6%;
     
-        } 
+} 
 
 
 @media ( max-width: 1024px )
-        {#personal {
-            height:130px ;
-            width: 140px;
-         }
+        {
+            #personal 
+            {
+             height:130px ;
+             width: 140px;
+            }
         
            
         } 
 
         
-
-   
-
-.container{
-        margin: 40px;
+.container
+    {
+     margin: 40px;
     }                  
     
 
 
-.label{
+.label
+{
     color: #082e47ec ;  
     text-align: center;
     margin-top: -35px;
@@ -78,11 +75,12 @@ header div{
 
     /* *************************************************** that's the main ************************************************** */
 
-main{
-width: 80%;
-margin: auto;
-font-style: italic;
-    }
+main
+{
+  width: 80%;
+  margin: auto;
+  font-style: italic;
+}
 
 
 .obj{
